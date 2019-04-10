@@ -13,8 +13,7 @@ import Detail from '@/page/detail'
 Vue.use(Router)
 
 export default new Router({
-  mode: 'history',
-  routes: [
+routes: [
     {
       path: '/',
       name: 'defaultPage',
